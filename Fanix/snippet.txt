@@ -1,0 +1,23 @@
+<model-viewer src="DVE A2 model .glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" camera-orbit="-37.88deg 71.75deg 0.7729m" field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-surface="5 0 222 178 181 0.435 0.309 0.257" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Scrubber</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-surface="3 0 498 450 449 0.254 0.109 0.637" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Charging Dock</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-surface="9 0 6962 6927 6960 0.130 0.654 0.216" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Brush Head
+        </div>
+    </button><button class="Hotspot" slot="hotspot-15" data-surface="2 0 1 48 32 0.620 0.329 0.051" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Cloth Head</div>
+    </button><button class="Hotspot" slot="hotspot-23" data-surface="10 0 36 37 38 0.385 0.597 0.017" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Dust Scanner</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
